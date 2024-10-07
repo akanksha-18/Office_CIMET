@@ -1,0 +1,72 @@
+.age-validator-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .age-validator-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .date-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .submit-button, .info-button, .back-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .submit-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .info-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .result {
+    text-align: center;
+  }
+  
+  .info-text {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .error-text {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
